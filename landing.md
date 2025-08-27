@@ -25,7 +25,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/horse.jpg %}" alt="" data-position="center center" />
+			<img src="{{ site.baseurl }}{% link assets/images/horse.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -41,7 +41,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/car.jpg %}" alt="" data-position="top center" />
+			<img src="{{ site.baseurl }}{% link assets/images/car.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -59,7 +59,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/room.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{{ site.baseurl }}{% link assets/images/room.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -77,7 +77,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pony.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{{ site.baseurl }}{% link assets/images/pony.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
