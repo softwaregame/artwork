@@ -41,7 +41,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{{ site.baseurl }}{% link assets/images/car.jpg %}" alt="" data-position="top center" />
+			<img src='url("../images/car.jpg")' alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
